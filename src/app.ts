@@ -5,6 +5,7 @@ import { Button,
          SwiperItem,
          Sku, Popup, InputNumber, Price, Icon,
          Navbar,
+         Image,
          Cell } from '@nutui/nutui-taro';
 
 import './app.less'
@@ -36,6 +37,7 @@ App.use(Button)
    .use(Price)
    .use(Icon)
    .use(Navbar)
+   .use(Image)
    .use(Cell)
 
 export default App
